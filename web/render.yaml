@@ -9,5 +9,5 @@ services:
   healthCheckPath: /
   # autoDeploy: false             # optional
   envVars:
-  - key: darvin7531secretkey-idinahui
+  - key: DJANGO_SECRET_KEY
     generateValue: true       # will generate a base64-encoded 256-bit secret
